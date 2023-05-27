@@ -52,3 +52,11 @@
       max-width: 10rem;
     }
     
+    .dash-list {
+      list-style-type: none;
+    }
+    
+    .dash-list li::before {
+      content: "–"; 
+      margin-right: 5px;
+    }
